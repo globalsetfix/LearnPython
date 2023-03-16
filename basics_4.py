@@ -51,5 +51,17 @@ print(greeting[1:9:2])
 #revers
 print(greeting[::-1])
 
+#16. Properties of strings. Methods
+
+#Immutable strings
+first_name = "Jake "
+print(first_name * 2)
+
+print(first_name.upper())
+print(first_name.lower())
+
+long_string = "This is a long string"
+print(long_string.split(' '))
+
 
 
